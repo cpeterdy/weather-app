@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form action="" id="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city"
+            name="city"
+            id="city-input"
+            required
+            class="enter"
+          />
+          <input type="submit" value="Search" class="search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Toronto</h1>
+            <p class="current-details">
+              <span id="current-date"></span>, fog <br />
+              Humidity: <strong>100%</strong>, Wind: <strong>20km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="weather-emoji" id="weather-emoji">☁️</span
+            ><span class="temperature" id="current-temperature">12</span
+            ><span class="celsius">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by <a href="#">Chelsea Peterdy</a> and is
+          <a href="#" target="_blank">open-sourced on Github</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

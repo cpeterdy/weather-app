@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  padding: 30px 0;
+}
+
+main p strong {
+  color: #f97b2c;
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.container {
+  background: #f7f9f9;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+form .enter {
+  border: none;
+  border-radius: 5px;
+  background: #e4f7ff;
+  font-size: 16px;
+  padding: 18px;
+  width: 75%;
+}
+
+form .search {
+  border: none;
+  border-radius: 5px;
+  background: #fed9c3;
+  font-size: 16px;
+  color: #757575;
+  padding: 18px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.current-details {
+  font-size: 18px;
+}
+
+.current-temperature {
+  margin-right: 40px;
+}
+
+.weather-emoji {
+  font-size: 42px;
+  top: 10px;
+  position: relative;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 700;
+  top: 15px;
+  position: relative;
+}
+
+.celsius {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: -24px;
+}
